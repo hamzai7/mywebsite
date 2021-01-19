@@ -223,7 +223,7 @@ model-viewer {
 
 .features .square {
     width: 90vw;
-    height: 85vh;
+    height: 75vh;
 }
 
 /* tall features */
@@ -237,7 +237,7 @@ model-viewer {
 
 .features .wide {
     width: 90vw;
-    height: 85vh;
+    height: 60vh;
 }
 
 .features .model {
