@@ -89,6 +89,12 @@ nav li {
     }
 }
 
+*/
+
+model-viewer {
+  width: 600px;
+  height: 500px;
+}
 
 /* Navbar 2.0 */
 
