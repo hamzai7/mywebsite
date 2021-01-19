@@ -92,8 +92,8 @@ nav li {
 */
 
 model-viewer {
-  width: 600px;
-  height: 500px;
+  width: 60vw;
+  height: 45vh;
 }
 
 /* Navbar 2.0 */
@@ -219,6 +219,13 @@ model-viewer {
     width: 99%;
 }
 
+/* square features */
+
+.features .square {
+    width: 90vw;
+    height: 85vh;
+}
+
 /* tall features */
 
 .features .tall {
@@ -229,23 +236,49 @@ model-viewer {
 /* wide features */
 
 .features .wide {
-    width: 95vw;
-    height: 40vh;
+    width: 90vw;
+    height: 85vh;
+}
+
+.features .model {
+    width: 70vw;
+    height: 45vh;
+}
+
+.features .text {
+    width: 60vw;
+    height: 70vh;
 }
 
 /* desktop view feature resize */
 
 @media screen and (min-width: 768px) {
+    
+    .features .square {
+        width: 30vw;
+        height: 50vh;
+    }
+    
     .features .tall {
-        width: 40vw;
-        height: 95vh;
+        width: 20vw;
+        height: 50vh;
     }
     
     /* wide features */
     
     .features .wide {
+        width: 40vw;
+        height: 50vh;
+    }
+
+    .features .model {
+        width: 65vw;
+        height: 45vh;
+    }
+
+    .features .text {
         width: 60vw;
-        height: 60vh;
+        height: 30vh;
     }
 }
 
@@ -268,7 +301,7 @@ model-viewer {
     text-align: center;
     text-transform: uppercase;
     width: 90vw;
-    height: 40vh;
+    height: 50vh;
 }
 
 .bay figure img {
@@ -281,8 +314,8 @@ model-viewer {
 
 @media screen and (min-width: 768px) {
     .bay figure {
-        width: 80vw;
-        height: 80vh;
+        width: 60vw;
+        height: 50vh;
     }
 }
 
