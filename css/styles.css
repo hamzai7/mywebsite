@@ -310,6 +310,11 @@ model-viewer {
         width: 60vw;
         height: 30vh;
     }
+
+    .features .resume {
+        width: 40vw;
+        height: 90vh;
+    }
 }
 
 /* The top of the home page */
@@ -335,7 +340,7 @@ model-viewer {
     .row {
         align-items: center;
         display: flex;
-        height: 600px;
+        height: fit-content;
         justify-content: space-between;
         padding-bottom: 0;
     }
