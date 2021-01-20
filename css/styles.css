@@ -97,12 +97,19 @@ model-viewer {
 }
 
 .model2 {
-    width: 30vw;
-    height: 30vh;
+    width: 100vw;
+    height: 40vh;
 }
 
 .model2 figcaption {
     text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .model2 {
+        width: 30vw;
+        height: 30vh;
+    }
 }
 
 /* Navbar 2.0 */
