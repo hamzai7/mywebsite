@@ -329,6 +329,8 @@ model-viewer {
 
 .row {
     height: fit-content;
+    outline-color: gray;
+    outline-style:groove;
 }
 
 @media screen and (min-width: 768px) {
@@ -345,6 +347,7 @@ model-viewer {
         display: flex;
         height: fit-content;
         justify-content: space-between;
+        outline-style: none;
         padding-bottom: 0;
     }
     
