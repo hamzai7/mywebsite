@@ -269,6 +269,11 @@ model-viewer {
     height: 45vh;
 }
 
+.features .resume {
+    width: 90vw;
+    height: 80vh;
+}
+
 .features .text {
     width: 60vw;
     height: 70vh;
@@ -306,15 +311,16 @@ model-viewer {
         height: 45vh;
     }
 
+    .features .resume {
+        width: 35vw;
+        height: 90vh;
+    }
+
     .features .text {
         width: 60vw;
         height: 30vh;
     }
 
-    .features .resume {
-        width: 40vw;
-        height: 90vh;
-    }
 }
 
 /* The top of the home page */
