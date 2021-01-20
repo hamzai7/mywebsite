@@ -213,7 +213,7 @@ model-viewer {
 .features {
     background: white;
     color: gray;
-    padding: 20px;
+    padding: 7%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -224,8 +224,6 @@ model-viewer {
     padding: 30px;
     text-align: center;
     text-transform: uppercase;
-    width: 80vw;
-    height: 80vh;
 }
 
 .features figure img {
@@ -236,37 +234,31 @@ model-viewer {
     width: 99%;
 }
 
-/* profile features */
+/* mobile features */
 
-.features .profile {
+.features .img1 {
+    height: 50vh;
     width: 80vw;
-    height: 65vh;
 }
 
-/* square features */
-
-.features .square {
-    width: 90vw;
-    height: 75vh;
+.features .img2 {
+    height: 50vh;
+    width: 80vw;
 }
 
-/* tall features */
-
-.features .tall {
-    width: 90vw;
-    height: 85vh;
-}
-
-/* wide features */
-
-.features .wide {
-    width: 90vw;
-    height: 60vh;
+.features .img3 {
+    height: 50vh;
+    width: 80vw;
 }
 
 .features .model {
     width: 70vw;
     height: 45vh;
+}
+
+.features .profile {
+    width: 80vw;
+    height: 65vh;
 }
 
 .features .resume {
@@ -282,33 +274,35 @@ model-viewer {
 /* desktop view feature resize */
 
 @media screen and (min-width: 768px) {
-    
-    .features .profile {
-        width: 20vw;
-        height: 50vh;
-        padding: auto;
+
+    .features {
+        padding: 3%;
     }
 
-    .features .square {
-        width: 30vw;
-        height: 50vh;
-        padding: 10px;
-    }
-    
-    .features .tall {
+    .features .img1 {
+        height: 30vh;
         width: 20vw;
-        height: 50vh;
     }
-    
-    .features .wide {
-        width: 40vw;
-        height: 50vh;
-        padding: 50px;
+
+    .features .img2 {
+        height: 40vh;
+        width: 20vw;
+    }
+
+    .features .img3 {
+        height: 40vh;
+        width: 20vw;
     }
 
     .features .model {
         width: 65vw;
         height: 45vh;
+    }
+
+    .features .profile {
+        width: 20vw;
+        height: 50vh;
+        padding: auto;
     }
 
     .features .resume {
@@ -324,6 +318,9 @@ model-viewer {
 }
 
 /* The top of the home page */
+.column {
+    padding: 0 0 5% 0;
+}
 
 .column h1 {
     text-align: center;

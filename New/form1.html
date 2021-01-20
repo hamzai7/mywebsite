@@ -8,8 +8,13 @@
 
     <!-- Local CSS -->
     <link rel="stylesheet" href="../css/styles.css">
+    
     <!-- javascript for navbar -->
     <script defer src="../js/nav.js"></script>
+
+    <!-- for 3d model -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 </head>
 
 <body>
@@ -26,112 +31,136 @@
         </ul>
     </nav>
 
-    <h1 class='formTitle'>Form Page</h1>
+    <h1 class='formTitle'>Resume Page</h1>
 
-    <!-- Printer Reset Form -->
-    <hr>
+    <section class="column">
+        <section class="row">
+            <section class="features">
+                <td><h3>LEAN Production System Design</h3>
+					<ul>
+						<li>Identified 7 types of waste within a production cell along with possible countermeasures to reduce waste</li>
+						<li>Collaborated with team members to form 8 design rationale that improved the cell layout and material flow</li>
+						<li>Decreased the number of operators needed from 5 to 4</li>
+					</ul>
+				</td>
+            </section>
+            <section class="features">
+                <figure class="img1">
+                    <img src="../images/LEAN1.jpg" alt="Project 1 Before Diagram">
+                    <figcaption>Material flow diagram of original process</figcaption>
+                </figure>
+                <figure class="img1">
+                    <img src="../images/LEAN2.jpg" alt="Project 1 After Diagram">
+                    <figcaption>New material flow diagram</figcaption>
+                </figure>
+                <figure class="img1">
+                    <img src="../images/LEAN3.jpg" alt="As-Is VRM">
+                    <figcaption>Value stream map of original process</figcaption>
+                </figure>
+                <figure class="img1">
+                    <img src="../images/LEAN4.jpg" alt="To-Be VRM">
+                    <figcaption>Revised value stream map</figcaption>
+            </section>
+        </section>
 
-    <form class="form-horizontal" action="updateprinter.php">
-    <center>
-        <fieldset>
+        <section class="row">
+            <section class="features">
+                <figure class="img2">
+                    <img src="../images/Cardholder1.jpg" alt="Project 2 design image">
+                    <figcaption>Solidworks Prototype Design</figcaption>
+                </figure>
+                <figure class="img2">
+                    <img src="../images/Cardholder2.jpg" alt="Project 2 print image">
+                    <figcaption>3D Printed Prototype</figcaption>
+                </figure>
+                <figure class="model">
+                    <model-viewer src="../models/cardholder.glb" alt="The 3D model of a card holder" auto-rotate camera-controls></model-viewer>
+                    <figcaption>3D model of the card holder</figcaption>
+                </figure>
+            </section>
+            <section class="features">
+                <td><h3>Business Card Holder Design</h3>
+					<ul>
+						<li>Developed 12 engineering characteristics from customer requirements</li>
+						<li>Integrated features of prototypes from each person on the team to form the final product</li>
+					</ul>
+				</td>
+            </section>
+        </section>
 
-            <!-- Form Name -->
-            <legend>To update the status of a printer please fill out the form below</legend>
-            <br>
-            <!-- Text input for selected printer-->
-            <div class="form-group">
-                
-                <label class="col-md-4 control-label" for="selectedprinter"><strong>Which grid position are you updating the status of?</strong>  
-                    <input id="selectedprinter" name="selectedprinter" type="text" placeholder="e.g. A1, D2" required> 
-                </label>
-                
+        <section class="row">
+            <section class="features">
+                <td><h3>FAQ Chatbot</h3>
+					<ul>
+						<li>Utilized 5 frequently asked questions from the ISEN department’s website for chatbot development</li>
+						<li>Designed the chatbot to answer questions appropriately with conversational flow</li>
+						<li>Planned out 27 different user interactions</li>
+						<li>Documented test chat sessions and modified design when improvement was possible</li>
+					</ul>
+				</td>
+            </section>
+            <section class="features">
+                <figure class="text">
+                    <br><br>
+                    <center>
+                        <p><b>Here is a list of the questions this chatbot has been created to answer:</b></p>
+                        <p><i>How do I get into the Industrial Engineering Undergraduate Program?</i></p>
+                        <p><i>What criteria is used for admission into Industrial Engineering?</i></p>
+                        <p><i>What minors does the University offer? How do I add a minor?</i></H4>
+                        <p><i>How do I find my cumulative GPA and major GPA?</i></p>
+                        <p><i>How do I Q-drop a course?</i></p>
+                        <H4>Click <a href="https://webchat.snatchbot.me/4c2232476e810213b77f0c27499c98aa5de53e4ae479222e7b8d8e59dfaa7f7c">here</a>  to interact with the chatbot.</H4>
+                    </center>
+                </figure>
+            </section>
+        </section>
+
+        <section class="row">
+            <section class="features">
+                <figure class="img3">
+                    <img src="../images/Lifting1.jpg" alt="Project 2 design image">
+                    <figcaption>Observed Task</figcaption>
+                </figure>
+                <figure class="img3">
+                    <img src="../images/Lifting2.jpg" alt="Illustration of task before recommendation 1 image">
+                    <figcaption>Task before applying first recommended change</figcaption>
+                </figure>
+                <figure class="img3">
+                    <img src="../images/Lifting3.jpg" alt="Illustration of task after recomendation 1 image">
+                    <figcaption>Task after applying first recommended change</figcaption>
+                </figure>
+                <figure class="img3">
+                    <img src="../images/Lifting4.jpg" alt="Illustration of task after both recommendations applied">
+                    <figcaption>Task after applying both recommended changes</figcaption>
+                </figure>
+            </section>
+            <section class="features">
+                <td><h3>Lifting Task Evaluation</h3>
+					<ul>
+						<li>Observed a worker lifting a box and recorded data for analysis</li>
+						<li>Computed the recommended weight limit and the risk of lower back injury</li>
+						<li>Provided 2 recommendations to lower the risk of injury with a lifting index after applying each one</li>
+						<li>Illustrated how each recommendation would change the task</li>
+					</ul>
+				</td>
+            </section>
+        </section>
+    </section>
+    
+    <footer>
+        <button data-modal-target="#modal" class="modal-button">Open Modal</button>
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <div class="title">Website Details</div>
+                <button data-close-button class="close-button">&times;</button>
             </div>
-
-            <br>
-            <br>
-            <br>
-
-            <!-- Radio input for new status-->
-            <div class="form-group">
-            
-                <strong>What is the new status for this printer?</strong>
-                <br>
-                <br>
-                <label class="" for="open"> 
-                    <input id="open" name="newstatus" type="radio" value="Open" checked>
-                    Open
-                </label>
-                <label class="" for="reserved"> 
-                    <input id="reserved" name="newstatus" type="radio" value="Reserved">
-                    Reserved
-                </label>
-                <label class="" for="down"> 
-                    <input id="down" name="newstatus" type="radio" value="Down">
-                    Down
-                </label>
-                <label class="" for="inventory"> 
-                    <input id="inventory" name="newstatus" type="radio" value="Inventory">
-                    Inventory
-                </label>
-            
+            <div class="modal-body">
+                <p>Hamza's Personal Website Version 2.0</p>
             </div>
-
-            <br>
-            <br>
-            <br>
-
-            <!-- Text input for new user-->
-            <div class="form-group">
-            
-                <label class="col-md-4 control-label" for="newuser"><strong>Who is now using this printer?</strong> 
-                    <input id="newuser" name="newuser" type="text" placeholder="'none' if not reserving" required>
-                </label>
-            
-            </div>
-
-            <br>
-            <br>
-            <br>
-
-            <!-- Radio input for use temperature-->
-            <div class="form-group">
-            
-                <strong>What temperature was this printer used at last?</strong>
-                <br>
-                <br>
-                <label class="col-md-4 control-label" for="hightemp"> 
-                    <input id="hightemp" name="usetemp" type="radio" value="High Temperature" required>
-                    High Temperature 
-                </label>
-                
-                <label class="col-md-4 control-label" for="lowtemp"> 
-                    <input id="lowtemp" name="usetemp" type="radio" value="Low Temperature">
-                    Low Temperature 
-                </label>
-                
-                <label class="col-md-4 control-label" for="na"> 
-                    <input id="na" name="usetemp" type="radio" value="N/A">
-                    I am reserving it 
-                </label>
-            
-            </div>
-
-            <br>
-            <br>
-
-            <!-- Submit Button -->
-            <div class="form-group">
-            <label class="col-md-4 control-label" for="submit"></label>
-                <div class="col-md-4">
-                    <button id="submit" name="submit" class="btn btn-primary">Update Printer</button>
-                </div>
-            </div>
-
-            <br>
-
-        </fieldset>
-    </center>
-    </form>
+        </div>
+        <div id="overlay"></div>
+        <a href="https://www.linkedin.com/in/hamzai7/">LinkedIn</a>
+    </footer>
 
 </body>
 
