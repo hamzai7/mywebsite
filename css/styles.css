@@ -219,6 +219,13 @@ model-viewer {
     width: 99%;
 }
 
+/* profile features */
+
+.features .profile {
+    width: 80vw;
+    height: 65vh;
+}
+
 /* square features */
 
 .features .square {
@@ -254,9 +261,16 @@ model-viewer {
 
 @media screen and (min-width: 768px) {
     
+    .features .profile {
+        width: 20vw;
+        height: 50vh;
+        padding: auto;
+    }
+
     .features .square {
         width: 30vw;
         height: 50vh;
+        padding: 10px;
     }
     
     .features .tall {
@@ -264,11 +278,10 @@ model-viewer {
         height: 50vh;
     }
     
-    /* wide features */
-    
     .features .wide {
         width: 40vw;
         height: 50vh;
+        padding: 50px;
     }
 
     .features .model {
