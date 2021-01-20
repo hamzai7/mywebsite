@@ -96,6 +96,15 @@ model-viewer {
   height: 45vh;
 }
 
+.model2 {
+    width: 30vw;
+    height: 30vh;
+}
+
+.model2 figcaption {
+    text-align: center;
+}
+
 /* Navbar 2.0 */
 
 .navbar {
@@ -297,13 +306,13 @@ model-viewer {
 
 /* The top of the home page */
 
+.column h1 {
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     .column {
         align-items: center; /* edit later */
-    }
-
-    .column h1 {
-        text-align: center;
     }
     
     .row {
