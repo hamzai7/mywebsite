@@ -93,7 +93,7 @@ nav li {
 
 model-viewer {
   height: 45vh;
-  width: 60vw;
+  width: 35vw;
 }
 
 .model2 {
@@ -217,6 +217,7 @@ model-viewer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: fit-content;
 }
 
 .features figure {
@@ -251,6 +252,21 @@ model-viewer {
     width: 80vw;
 }
 
+.features .img4T {
+    height: 90vh;
+    width: 95vw;
+}
+
+.features .img4W {
+    height: 40vh;
+    width: 100vw;
+}
+
+.features .img4WW {
+    height: 30vh;
+    width: 100vw;
+}
+
 .features .model {
     width: 70vw;
     height: 45vh;
@@ -281,22 +297,37 @@ model-viewer {
 
     .features .img1 {
         height: 30vh;
-        width: 20vw;
+        width: 18vw;
     }
 
     .features .img2 {
         height: 40vh;
-        width: 20vw;
+        width: 18vw;
     }
 
     .features .img3 {
         height: 40vh;
-        width: 20vw;
+        width: 18vw;
+    }
+
+    .features .img4T {
+        height: 35vh;
+        width: 12vw;
+    }
+
+    .features .img4W {
+        height: 30vh;
+        width: 23vw;
+    }
+
+    .features .img4WW {
+        height: 25vh;
+        width: 25vw;
     }
 
     .features .model {
-        width: 65vw;
         height: 45vh;
+        width: 40vw;
     }
 
     .features .profile {
