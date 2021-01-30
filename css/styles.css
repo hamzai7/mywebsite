@@ -279,7 +279,7 @@ model-viewer {
 
 .features .resume {
     width: 95vw;
-    height: 80vh;
+    height: 75vh;
 }
 
 .features .text {
@@ -337,8 +337,8 @@ model-viewer {
     }
 
     .features .resume {
-        width: 35vw;
-        height: 90vh;
+        width: 40vw;
+        height: 95vh;
     }
 
     .features .text {
