@@ -13,99 +13,6 @@ body {
     padding: 0;
 }
 
-/* Header */
-
-header {
-    background-color: black;
-    background-image: url("https://www.essentium.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-25-at-12.11.03-PM.png");
-    background-position: bottom;
-    background-size: 100%;
-    height: 150px;
-    padding: 20px;
-    text-align: center;
-
-}
-
-header a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 40px;
-}
-
-header .logo a {
-    background-image: url("../images/EssentiumLogo.png");
-    background-repeat: no-repeat;
-    background-size: 100px;
-    display: inline-block;
-    height: 100px;
-    position: relative;
-    text-indent: -9999999px;
-    top: -35px;
-    width: 100px;
-}
-
-header .mobile {
-    display: none;
-}
-
-/* old nav stuff
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-@media screen and (max-width: 715px) {
-    header {
-        background-size: 175%;
-        height: 300px;
-    }
-
-    header a {
-        margin: 0px;
-        margin-top: 40px;
-    }
-
-    header .logo a {
-        height: 100px;
-        position: relative;
-        top: -15px;
-    }
-
-    header .mobile {
-        display: block;
-        padding: 10px;
-    }
-
-    header .desktop {
-        display: none;
-    }
-}
-
-*/
-
-model-viewer {
-  height: 45vh;
-  width: 35vw;
-}
-
-.model2 {
-    height: 40vh;
-    padding: 5vw;
-    width: 90vw;
-}
-
-.model2 figcaption {
-    text-align: center;
-}
-
 @media screen and (min-width: 768px) {
     .model2 {
         height: 30vh;
@@ -206,7 +113,20 @@ model-viewer {
     }
 }
 
-
+model-viewer {
+    height: 45vh;
+    width: 35vw;
+  }
+  
+  .model2 {
+      height: 40vh;
+      padding: 5vw;
+      width: 90vw;
+  }
+  
+  .model2 figcaption {
+      text-align: center;
+  }
 
 /* Features */
 
@@ -395,60 +315,30 @@ model-viewer {
     }
 }
 
-
-
-/* printer bay diagram */
-
-.bay {
-    background: white;
-    color: gray;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.bay figure {
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 90vw;
-    height: 50vh;
-}
-
-.bay figure img {
-    border: 1px solid white;
-    border-radius: 10%;
-    box-shadow: grey 0px 0px 10px;
-    height: 99%;
-    width: 99%;
-}
-
-@media screen and (min-width: 768px) {
-    .bay figure {
-        width: 60vw;
-        height: 50vh;
-    }
-}
-
-/* Responsive Rules 
-
-    @media screen and (max-width: 715px) {
-        .features {
-            display: block;
-        }
-    }
-*/
-
 /* Footer */
 
 footer {
-    background: rgb(168, 168, 168);
-    columns: grey;
-    font-size: 12px;
-    padding: 20px 20px;
-    text-align: center;
+    background: #0f2036;
+    height: fit-content;
+    padding: 5%;
+}
+
+.main-foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.main-foot li {
+    margin: 0;
+}
+
+.main-foot li a {
+    margin-left: 40px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 10px 10px 0 10px;
 }
 
 /* modal styles*/
@@ -473,7 +363,6 @@ footer {
 
 .modal-button {
     border-radius: 10px;
-    margin: 10px;
     padding: 10px;
 }
 
