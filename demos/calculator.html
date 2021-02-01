@@ -4,10 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+
+    <!-- main css -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- js for navbar -->
+    <script defer src="../js/nav.js"></script>
+
+    
+    <!-- calculator css -->
     <link rel="stylesheet" href="../css/calculator.css">
+    <!-- calculator ja -->
     <script src="../js/calculator.js" defer></script>
 </head>
 <body>
+
+    <nav class="navbar">
+        <span class="navbar-toggle">
+            <button id="jsToggle">Show Menu</button>
+        </span>
+        <a class="logo" href="../index.html">Essentium Logo</a>
+        <ul class="main-nav" id="jsMenu">
+            <li><a class= "nav-links" href="../New/myProjects.html">My Projects</a></li>
+            <li><a class= "nav-links" href="#">Calculator</a></li>
+        </ul>
+    </nav>
+
     <section class="surround">
         <div class="calculator-grid">
             <div class="output">
