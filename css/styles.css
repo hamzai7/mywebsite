@@ -13,14 +13,6 @@ body {
     padding: 0;
 }
 
-@media screen and (min-width: 768px) {
-    .model2 {
-        height: 30vh;
-        padding: 0;
-        width: 30vw;
-    }
-}
-
 /* Navbar 2.0 */
 
 .navbar {
@@ -116,17 +108,25 @@ body {
 model-viewer {
     height: 45vh;
     width: 35vw;
-  }
+}
   
-  .model2 {
-      height: 40vh;
-      padding: 5vw;
-      width: 90vw;
-  }
-  
-  .model2 figcaption {
-      text-align: center;
-  }
+.model2 {
+    height: 40vh;
+    padding: 5vw;
+    width: 90vw;
+}
+
+.model2 figcaption {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .model2 {
+        height: 30vh;
+        padding: 0;
+        width: 30vw;
+    }
+}
 
 /* Features */
 
