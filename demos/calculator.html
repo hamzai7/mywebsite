@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- main css -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- js for navbar -->
+    <script defer src="../js/nav.js"></script>
+
+     <!-- javascript for modal -->
+     <script defer src="../js/script.js"></script>
+    
+    <!-- calculator css -->
+    <link rel="stylesheet" href="../css/calculator.css">
+    <!-- calculator ja -->
+    <script src="../js/calculator.js" defer></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <span class="navbar-toggle">
+            <button id="jsToggle">Show Menu</button>
+        </span>
+        <a class="logo" href="../index.html">Essentium Logo</a>
+        <ul class="main-nav" id="jsMenu">
+            <li><a class= "nav-links" href="../New/myProjects.html">My Projects</a></li>
+            <li><a class= "nav-links" href="#">Calculator</a></li>
+        </ul>
+    </nav>
+
+    <h1 class='formTitle'><strong>Calculator</strong></h1>
+    <hr>
+
+    <section class="surround">
+        <div class="calculator-grid">
+            <div class="output">
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand"></div>
+            </div>
+            <button data-all-clear class="span-two">AC</button>
+            <button data-delete>DEL</button>
+            <button data-operation>÷</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation>×</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation>+</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation>-</button>
+            <button data-number>.</button>
+            <button data-number>0</button>
+            <button data-equals class="span-two">=</button>
+        </div>
+    </section>
+
+    <footer>
+        <ul class="main-foot">
+            <li><a class= "nav-links" href="https://www.linkedin.com/in/hamzai7/">LinkedIn</a></li>
+            <li>
+                <button data-modal-target="#modal" class="modal-button">Open Modal</button>
+                <div class="modal" id="modal">
+                    <div class="modal-header">
+                        <div class="title">Website Details</div>
+                        <button data-close-button class="close-button">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Hamza's Personal Website Version 2.0</p>
+                    </div>
+                </div>
+                <div id="overlay"></div>
+            </li>
+            <li><a class= "nav-links" href="https://github.com/hamzai7">Github</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
